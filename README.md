@@ -1,6 +1,6 @@
 # WhiteRabbit-Password-Generator
 
-> Tiny helper for the HTB **WhiteRabbit** box: generate the 1,000 candidate passwords derived from a known timestamp when the original binary seeds milliseconds.
+> Helper for the HTB **WhiteRabbit** box: generate the 1,000 candidate passwords derived from a known timestamp when the original binary seeds milliseconds.
 
 **What it is:** a reproducible way to enumerate all millisecond seeds for a given second (000–999) and print the corresponding passwords — matching the behavior of the target’s `neo-password-generator` logic, without shipping any spoilers or target binaries.
 
