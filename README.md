@@ -41,6 +41,7 @@ Now test the candidates with your preferred (authorized) method, for example:
 - **Manual `su` testing** in a lab shell
 - Feeding `passwords.txt` into a **tool** that can attempt sudo authentication (within HTB rules)
 - Writing a small wrapper to stop on first success
+- Hydra SSH bruteforcing for a specific user
 
 > The exact timestamp (to the second) is typically gathered during box progression. This tool focuses solely on the **millisecond sweep** (000–999).
 
